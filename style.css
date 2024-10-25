@@ -57,7 +57,7 @@ footer {
 .page-link {
     position: absolute;
     left: 25%;                           /* Position 25% across the container */
-    color: #333333;                      /* Text color */
+    color: black;                      /* Text color */
     font-weight: bold;
     text-decoration: underline;
 }
@@ -65,7 +65,7 @@ footer {
 .insta-link {
     position: absolute;
     left: 75%;                           /* Position 75% across the container */
-    color: #333333;
+    color: black;
     font-weight: bold;
     text-decoration: underline;
 }
