@@ -51,23 +51,28 @@ footer {
     position: relative;                  /* Set position relative for absolute positioning of children */
     margin-top: 20px;                    /* Space above the section */
     width: 100%;                         /* Full width */
-    height: 50px;                        /* Set a fixed height for the container */
+    height: 100px;                       /* Adjusted height for container */
 }
 
 .page-link {
     position: absolute;
-    left: 25%;                           /* Position 25% across the container */
-    color: black;                      /* Text color */
+    left: 25%;                           /* Position 25% horizontally */
+    top: 50%;                            /* Adjust position to 50% vertically */
+    transform: translateY(-50%);         /* Center vertically */
+    color: black;                        /* Set font color to black */
     font-weight: bold;
     text-decoration: underline;
 }
 
 .insta-link {
     position: absolute;
-    left: 75%;                           /* Position 75% across the container */
+    left: 75%;                           /* Position 75% horizontally */
+    top: 50%;                            /* Adjust position to 50% vertically */
+    transform: translateY(-50%);         /* Center vertically */
     color: black;
     font-weight: bold;
     text-decoration: underline;
 }
+
 
 
