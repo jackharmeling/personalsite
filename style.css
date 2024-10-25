@@ -46,26 +46,28 @@ footer {
 
 /* Styles for the link section */
 .link-section {
-    background-color: rgb(10, 178, 229);      /* Background color */
-    padding: 20px;                  /* Padding inside the background */
-    display: flex;                  /* Flexbox for alignment */
-    justify-content: center;        /* Center items in container */
-    align-items: center;            /* Center items vertically */
-    gap: 40px;                      /* Space between links */
-    margin-top: 20px;               /* Space above the section */
-    width: 100%;                    /* Full width */
+    background-color: rgb(10, 178, 229); /* Background color */
+    padding: 20px;                       /* Padding inside the background */
+    position: relative;                  /* Set position relative for absolute positioning of children */
+    margin-top: 20px;                    /* Space above the section */
+    width: 100%;                         /* Full width */
+    height: 50px;                        /* Set a fixed height for the container */
 }
 
-.page-link, .insta-link {
-    color: #333333;                 /* Text color */
-    font-weight: bold;              /* Bold text */
-    text-decoration: underline;     /* Underline the links */
-    text-decoration-thickness: 2px; /* Thicker underline for emphasis */
+.page-link {
+    position: absolute;
+    left: 25%;                           /* Position 25% across the container */
+    color: #333333;                      /* Text color */
+    font-weight: bold;
+    text-decoration: underline;
 }
 
-.page-link:hover, .insta-link:hover {
-    color: #555555;                 /* Change color on hover */
-    text-decoration-thickness: 2px; /* Thicker underline on hover */
+.insta-link {
+    position: absolute;
+    left: 75%;                           /* Position 75% across the container */
+    color: #333333;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 
