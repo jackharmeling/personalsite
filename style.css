@@ -43,26 +43,29 @@ footer {
     height: auto;
     border-radius: 8px;
 }
+
+/* Styles for the link section */
 .link-section {
-    background-color: rgb(10, 178, 229);    /* Set a background color */
-    padding: 20px;                /* Adds padding inside the background */
-    display: flex;                /* Use flexbox to align items */
-    justify-content: space-between; /* Align items to the left and right */
-    align-items: center;          /* Center items vertically */
-    margin-top: 20px;             /* Add some space above */
-    width: 100%;                  /* Matches the header width */
+    background-color: rgb(10, 178, 229);      /* Background color */
+    padding: 20px;                  /* Padding inside the background */
+    display: flex;                  /* Flexbox for alignment */
+    justify-content: center;        /* Center items in container */
+    align-items: center;            /* Center items vertically */
+    gap: 40px;                      /* Space between links */
+    margin-top: 20px;               /* Space above the section */
+    width: 100%;                    /* Full width */
 }
 
 .page-link, .insta-link {
-    color: #333333;               /* Set text color */
-    font-weight: bold;            /* Make links bold */
-    text-decoration: none;        /* Remove underline */
+    color: #333333;                 /* Text color */
+    font-weight: bold;              /* Bold text */
+    text-decoration: underline;     /* Underline the links */
+    text-decoration-thickness: 2px; /* Thicker underline for emphasis */
 }
 
 .page-link:hover, .insta-link:hover {
-    color: #555555;               /* Change color on hover */
-    text-decoration: underline;   /* Underline on hover */
+    color: #555555;                 /* Change color on hover */
+    text-decoration-thickness: 2px; /* Thicker underline on hover */
 }
-
 
 
