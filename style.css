@@ -45,7 +45,7 @@ footer {
 }
 .link-section {
     background-color: rgb(10, 178, 229);    /* Set a background color */
-    padding: 15px;                /* Adds padding inside the background */
+    padding: 20px;                /* Adds padding inside the background */
     display: flex;                /* Use flexbox to align items */
     justify-content: space-between; /* Align items to the left and right */
     align-items: center;          /* Center items vertically */
