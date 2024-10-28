@@ -1,19 +1,19 @@
 .image-captions {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 20px;
+    justify-content: center;       /* Centers the images within the container */
+    align-items: flex-start;       /* Aligns images to the top */
+    gap: 20px;                     /* Space between images */
     margin-top: 20px;
 }
 
 .image-captions figure {
     text-align: center;
-    flex: 1;
+    flex: 1;                       /* Ensures each figure takes equal width */
 }
 
 .about-img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 5px;
+    max-width: 100%;               /* Keeps images responsive within the figure */
+    width: 400px;                  /* Sets a consistent width */
+    height: auto;                  /* Maintains the image's aspect ratio */
+    border-radius: 5px;            /* Optional: rounded corners */
 }
